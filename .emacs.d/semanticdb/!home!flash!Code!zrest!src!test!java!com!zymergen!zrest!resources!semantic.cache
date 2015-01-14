@@ -1,0 +1,59 @@
+;; Object resources/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "resources/"
+  :tables (list 
+   (semanticdb-table "IntegrationTestPlateResource.java"
+    :major-mode 'jde-mode
+    :tags 
+        '( ("com.zymergen.zrest.resources" package nil nil [63 100])
+            ("org.junit.Test" include nil nil [102 124])
+            ("com.sun.jersey.api.client.UniformInterfaceException" include nil nil [126 185])
+            ("com.zymergen.zrest.WellGeometry" include nil nil [186 225])
+            ("com.zymergen.zrest.dto.PlateDescriptor" include nil nil [226 272])
+            ("com.zymergen.zrest.dto.WellDescriptor" include nil nil [273 318])
+            ("com.zymergen.zrest.testutil.ZRestIntegrationTest" include nil nil [319 375])
+            ("IntegrationTestPlateResource" type
+               (:typemodifiers ("public")
+                :superclasses "ZRestIntegrationTest"
+                :members 
+                  ( ("testFailBadPlateType" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [646 937])
+                    ("testFailEmptyPlateType" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1024 1312])
+                    ("testFailMissingPlateType" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1399 1678])
+                    ("testFailImproperWellCountForPlateType" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1732 2107])
+                    ("testFailInvalidWellCount" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2161 2546])
+                    ("testBasicCreateOk" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [2602 3181])
+                    ("testBasicCreateOfManyWellsOk" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [3380 4895]))                  
+                :type "class")
+                nil [439 4897]))          
+    :file "IntegrationTestPlateResource.java"
+    :pointmax 4899
+    :fsize 4898
+    :lastmodtime '(21438 60291 652021 476000)
+    :unmatched-syntax '((CLASS 2152 . 2157) (IDENTIFIER 2117 . 2125) (EQ 2125 . 2126) (CLASS 1723 . 1728) (IDENTIFIER 1688 . 1696) (EQ 1696 . 1697) (CLASS 1357 . 1362) (IDENTIFIER 1322 . 1330) (EQ 1330 . 1331) (CLASS 982 . 987) (IDENTIFIER 947 . 955) (EQ 955 . 956) (CLASS 604 . 609) (IDENTIFIER 569 . 577) (EQ 577 . 578) (IDENTIFIER 426 . 436) (DOT 425 . 426) (IDENTIFIER 415 . 425) (DOT 414 . 415) (IDENTIFIER 411 . 414) (DOT 410 . 411) (IDENTIFIER 400 . 410) (DOT 399 . 400) (IDENTIFIER 395 . 399) (DOT 394 . 395) (IMPORT 377 . 383) (STATIC 384 . 390) (IDENTIFIER 391 . 394))
+    )
+   )
+  :file "!home!flash!Code!zrest!src!test!java!com!zymergen!zrest!resources!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

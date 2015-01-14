@@ -1,0 +1,1490 @@
+((("HEADER" .
+   [2 0 0 0 0 2])
+  ("conf" .
+   [1 0 0 0])
+  ("job" .
+   [3 0 0])
+  ("authorization" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("out" .
+   [1 0 0])
+  ("plate" .
+   [1 0 0 0 1])
+  ("blob" .
+   [1 0 0 0])
+  ("dnaComponentAvro" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("dnaComponent" .
+   [0 1 0 1 0 0 0 0 0 0 0 0])
+  ("DnaComponent" .
+   [0 0 0 1 0 0 0 0 0 0 0 2])
+  ("update" .
+   [0 0 0 0 0 1])
+  ("sign_in" .
+   [1 0 0 0 0 0 1])
+  ("list_url" .
+   [1 0 0 0 0 0 0 1])
+  ("TeestCase" .
+   [0 0 1 0 0 0 0 0 0])
+  ("case" .
+   [0 0 1 0])
+  ("User" .
+   [1 0 0 0])
+  ("blobSchemaJson" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("replicate_id" .
+   [2 0 0 0 0 0 0 0 0 0 0 0])
+  ("downcased" .
+   [1 0 0 0 0 0 0 0 1])
+  ("th" .
+   [1 0])
+  ("alignment" .
+   [2 0 0 0 0 0 0 1 0])
+  ("alignments" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("well_data" .
+   [2 0 0 0 0 0 0 0 0])
+  ("sw" .
+   [1 0])
+  ("generate_report" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Sortted_wells" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 1])
+  ("items" .
+   [2 0 0 0 0])
+  ("target_data" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("Exception" .
+   [0 0 0 0 0 0 0 0 1])
+  ("glob" .
+   [2 0 0 0])
+  ("chdir" .
+   [1 0 0 0 0])
+  ("os" .
+   [1 0])
+  ("sequencing_data" .
+   [2 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("sequencing" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("row_data" .
+   [3 0 0 0 0 0 0 0])
+  ("target_id" .
+   [8 0 0 0 0 0 0 0 0])
+  ("strand" .
+   [1 0 0 0 0 0])
+  ("well" .
+   [2 0 0 0])
+  ("specsreader" .
+   [0 0 0 0 1 0 0 0 0 0 0])
+  ("skip_first_fow" .
+   [3 0 0 0 0 0 0 0 0 0 0 0 0 3])
+  ("seq_rec_rev" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("score_rev" .
+   [1 0 0 0 0 0 0 0 0])
+  ("score_p6" .
+   [1 0 0 0 0 0 0 0])
+  ("score_p5" .
+   [2 0 0 0 0 0 0 0])
+  ("SWP_P5_NEW" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("SWP_P5_OLD" .
+   [0 0 0 0 0 1 0 0 0 0])
+  ("unan" .
+   [1 0 0 0])
+  ("score_r" .
+   [2 0 0 0 0 0 0])
+  ("score_f" .
+   [1 0 0 0 0 0 0])
+  ("oldBPsBPs" .
+   [0 0 0 0 0 0 2 0 0])
+  ("seq_rec_p6" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("seq_rec_p5" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("seq_rec_r" .
+   [1 0 0 0 0 0 0 0 0])
+  ("oldBPs" .
+   [1 0 0 0 0 0])
+  ("newBPs" .
+   [4 0 0 0 0 0])
+  ("swap_str" .
+   [3 0 0 0 0 0 0 0])
+  ("target_seq" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("seq_rec_f" .
+   [1 0 0 0 0 0 0 0 0])
+  ("record" .
+   [3 0 0 0 0 1])
+  ("sequencing_file_name" .
+   [4 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1])
+  ("sequencing_file" .
+   [0 0 0 0 0 0 0 0 0 0 1 1 0 0 0])
+  ("load_sequencing_data_from_file" .
+   [2 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("SequencingHelper" .
+   [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("reader" .
+   [1 0 0 0 0 0])
+  ("specs" .
+   [2 0 0 0 1])
+  ("csv" .
+   [2 0 0])
+  ("after" .
+   [1 0 0 0 0])
+  ("SUB_TITLE" .
+   [0 0 0 0 0 0 0 0 1])
+  ("callback" .
+   [2 0 0 0 0 0 0 0])
+  ("addFilterButton" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("Apply" .
+   [1 0 0 0 0])
+  ("newCategories" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 1])
+  ("goodWells" .
+   [0 0 0 0 0 0 0 0 1])
+  ("hasMeasurementName" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("measurements" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("Update" .
+   [0 0 0 0 0 1])
+  ("toSelect" .
+   [0 0 0 0 0 0 0 2])
+  ("highcharts" .
+   [0 0 0 0 0 0 0 0 0 2])
+  ("gel" .
+   [1 0 0])
+  ("processMeasurements" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("removable" .
+   [0 0 0 0 0 0 0 0 1])
+  ("filter" .
+   [2 0 0 0 0 0])
+  ("removeData" .
+   [0 0 0 0 0 0 1 0 0 0])
+  ("remove" .
+   [0 0 0 0 0 2])
+  ("chart" .
+   [2 0 0 0 1])
+  ("selectedWells" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("selected" .
+   [1 0 0 0 0 0 1 2])
+  ("well_measurement" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("cell" .
+   [1 0 0 0])
+  ("well_id_from_position" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("well_measurements" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("measurementt_tuple_id" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("clean_row" .
+   [2 0 0 0 0 0 0 0 0])
+  ("WELLPOS" .
+   [2 0 0 0 0 0 0])
+  ("reverse_complement" .
+   [3 0 1 1 0 0 0 0 4 1 0 1 0 0 0 0 0 3])
+  ("Reset" .
+   [0 0 0 1 0])
+  ("extend" .
+   [1 0 0 0 0 0])
+  ("label" .
+   [2 0 0 0 0])
+  ("header" .
+   [2 0 0 0 0 0])
+  ("results" .
+   [1 0 0 0 0 0 0])
+  ("ZRestBase" .
+   [0 1 0 0 0 0 0 0 0])
+  ("print_barcode" .
+   [0 0 1 0 0 1 1 0 0 0 0 0 0])
+  ("well_hash" .
+   [2 0 0 0 0 0 0 0 0])
+  ("wells" .
+   [2 0 0 0 0])
+  ("get_url" .
+   [1 0 0 1 1 0 0])
+  ("fetch" .
+   [1 0 0 0 0])
+  ("verticalAlign" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("borderWidth" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("toString" .
+   [0 0 1 0 0 0 0 0])
+  ("rows" .
+   [1 0 0 0])
+  (":measurementFormat" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("experimentId" .
+   [0 0 0 0 0 0 0 0 0 0 1 0])
+  ("export_hashes" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("controlLabel" .
+   [0 0 0 0 0 0 0 1 0 0 0 0])
+  ("export_hash" .
+   [0 0 0 0 0 0 0 1 0 0 1])
+  ("inse" .
+   [1 0 0 0])
+  ("text" .
+   [0 0 1 0])
+  ("mock_plate" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("importlib" .
+   [0 1 0 0 0 0 0 0 0])
+  ("unittest" .
+   [0 0 0 0 1 0 0 1])
+  ("Plate" .
+   [4 0 0 0 0])
+  ("get_well_id_from_position" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("well_position" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("plate_id" .
+   [2 0 0 0 0 0 0 0])
+  ("parse_value" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("datetime" .
+   [1 0 0 0 0 0 0 0])
+  ("Measurement" .
+   [1 0 0 0 1 0 0 0 0 0 0])
+  ("measurement" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("models" .
+   [3 0 0 0 0 2])
+  ("parsers" .
+   [0 0 0 0 0 0 1])
+  ("pars" .
+   [0 0 0 1])
+  ("zypy" .
+   [1 0 0 1])
+  ("well_count" .
+   [2 0 1 0 0 0 1 0 0 0])
+  ("BODY" .
+   [1 0 0 1])
+  ("get_resource" .
+   [1 0 0 0 0 0 0 0 0 0 0 1])
+  ("url" .
+   [1 0 0])
+  ("status_code" .
+   [0 0 0 0 2 0 0 0 0 0 0])
+  ("rest_post" .
+   [1 0 0 0 0 0 0 0 0])
+  ("server" .
+   [2 0 0 0 0 0])
+  ("MeasurementBatch" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("upload" .
+   [1 0 0 0 0 0])
+  ("PRIMER_SEPARATION_TOLERENCE_5_6" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 1 0])
+  (":export" .
+   [1 0 0 0 0 0 0])
+  ("end" .
+   [0 0 1])
+  ("number_of_plates" .
+   [0 0 0 0 0 0 0 0 1 3 0 0 0 0 0 1])
+  ("dv_conc" .
+   [0 0 1 0 0 0 0])
+  ("show" .
+   [1 0 0 0])
+  ("environment_metric" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("getNumericalValue" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("A" .
+   [1])
+  ("File" .
+   [3 0 0 0])
+  ("stop" .
+   [1 0 0 0])
+  ("println()" .
+   [0 0 0 0 0 0 1 0 0])
+  ("equals" .
+   [1 0 0 0 0 0])
+  ("envMetricAvro" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("information" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("Inc" .
+   [1 0 0])
+  ("AVROLOG" .
+   [1 0 0 0 0 0 0])
+  ("n" .
+   [2])
+  ("UTC" .
+   [1 0 0])
+  ("avro" .
+   [2 0 0 0])
+  ("Logger" .
+   [1 0 0 0 0 0])
+  ("org.w3c" .
+   [0 0 0 0 0 0 1])
+  ("getLogger" .
+   [1 0 0 0 0 0 0 0 0])
+  ("AvroAppenderFactory" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3])
+  ("resolve_and_validate_batch_params" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Resolve" .
+   [0 0 0 0 0 0 1])
+  ("resolve_and_validate" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("experiment_id" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("measurement_batch" .
+   [3 0 0 0 0 0 0 0 0 0 0 2 0 1 0 0 0])
+  (":json" .
+   [1 0 0 0 0])
+  ("respond_to" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("respond_with" .
+   [2 0 0 0 0 0 0 0 0 0 0 0])
+  ("result" .
+   [3 0 0 0 0 1])
+  ("results_list" .
+   [0 0 1 0 0 0 0 0 0 0 0 0])
+  ("soft_functions" .
+   [0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("so" .
+   [1 0])
+  ("hard_functions" .
+   [0 0 1 2 0 0 0 0 0 0 0 0 0 0])
+  ("total" .
+   [4 0 0 0 0])
+  ("_reset" .
+   [1 0 0 1 0 0])
+  ("warn" .
+   [6 0 0 1])
+  ("utils" .
+   [1 0 1 0 0])
+  ("Seq" .
+   [8 0 9])
+  ("melting_temp" .
+   [0 0 0 1 0 0 1 1 0 0 0 2])
+  ("argv" .
+   [2 0 0 0])
+  ("parse_args" .
+   [0 0 0 0 0 0 0 0 0 1])
+  ("add_argument" .
+   [1 0 0 0 0 0 0 0 0 0 0 1])
+  ("ArgumentParser" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("AAGGCGAGTCAGGCTCAGTG" .
+   [0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("argparse" .
+   [0 0 0 2 0 0 0 0])
+  ("sys" .
+   [1 0 0])
+  ("Python" .
+   [1 0 0 0 0 0])
+  ("source" .
+   [1 0 0 0 0 0])
+  ("VERBOSITY" .
+   [0 0 0 1 0 0 0 0 0])
+  ("LOCALHOST" .
+   [1 0 0 0 0 0 0 0 0])
+  ("PORT" .
+   [2 0 0 0])
+  ("LOGFILE" .
+   [0 0 0 2 0 0 0])
+  ("echo" .
+   [3 0 0 0])
+  ("pwd" .
+   [1 0 0])
+  ("export" .
+   [2 0 0 0 0 0])
+  ("c-lineup-dont-change" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("arglist-intro" .
+   [0 0 0 0 1 0 0 1 0 0 0 0 1])
+  ("C-backspace" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("MultivaluedMap" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("c-set-offset" .
+   [3 0 0 0 0 0 0 1 0 0 0 0])
+  (":username" .
+   [1 0 0 0 0 0 0 0 0])
+  ("path" .
+   [3 0 1 0])
+  (":success" .
+   [3 0 0 0 0 0 0 0])
+  ("assert_response" .
+   [0 0 0 0 0 1 0 1 0 1 0 0 0 0 0])
+  (":user" .
+   [2 0 0 0 0])
+  (":create" .
+   [2 0 0 0 0 0 0])
+  ("post_via_redirect" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("user" .
+   [6 0 0 0])
+  ("username" .
+   [3 0 0 0 0 0 0 0])
+  ("user_url" .
+   [0 0 0 0 0 0 0 1])
+  ("v" .
+   [1])
+  ("redirect_to" .
+   [4 0 0 0 0 0 0 0 1 0 3])
+  ("redirect" .
+   [0 0 0 0 0 0 0 1])
+  ("signed" .
+   [1 0 0 0 0 0])
+  ("elsif" .
+   [1 0 0 0 0])
+  ("unless" .
+   [1 0 0 0 0 0])
+  ("redir" .
+   [0 0 0 0 3])
+  ("signed_in_as_admin?" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("true" .
+   [3 0 0 0])
+  ("render" .
+   [3 0 0 0 0 0])
+  (":new" .
+   [1 0 0 0])
+  (":as" .
+   [1 0 0])
+  ("get" .
+   [3 0 1])
+  ("zwq" .
+   [7 0 0])
+  ("dna_sequenc" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("len" .
+   [1 0 0])
+  ("divalent_concentration" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("str" .
+   [2 0 1])
+  ("tmp_dir" .
+   [1 0 0 0 0 1 0])
+  ("folder_name" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("to_s" .
+   [6 0 0 0])
+  ("to_i" .
+   [1 0 0 0])
+  ("not" .
+   [0 0 1])
+  ("Time" .
+   [1 0 0 0])
+  ("tmp_folder" .
+   [0 0 1 0 1 0 0 0 0 0])
+  ("to" .
+   [2 0])
+  ("join" .
+   [0 0 1 0])
+  ("root" .
+   [1 0 0 1])
+  ("Rails" .
+   [1 0 0 0 0])
+  ("mkdir_p" .
+   [0 0 0 0 0 1 0])
+  ("FileUtils" .
+   [2 0 0 0 0 0 0 0 0])
+  ("files" .
+   [5 0 0 0 0])
+  ("new" .
+   [4 0 0])
+  ("defined?" .
+   [0 0 0 2 0 0 0 0])
+  ("progn" .
+   [0 0 0 0 1])
+  ("ruby-accurate-end-of-block" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("ruby-end-pkg" .
+   [0 0 0 0 0 0 0 0 0 1 0 0])
+  ("ruby-mode" .
+   [1 0 0 0 0 0 0 0 0])
+  ("electric-" .
+   [0 0 0 0 0 0 0 0 1])
+  ("ruby-electric-mode" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("lambda" .
+   [0 0 0 1 0 0])
+  ("ruby-mode-hook" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("add-hook" .
+   [0 0 0 0 0 0 0 1])
+  ("nil" .
+   [6 0 1])
+  ("sequence" .
+   [4 0 7 3 0 0 0 4])
+  ("Set" .
+   [2 0 0])
+  ("params" .
+   [4 0 0 0 0 0])
+  ("create" .
+   [2 0 0 0 0 0])
+  ("puts" .
+   [11 0 1 0])
+  ("file" .
+   [1 0 0 0])
+  ("index" .
+   [4 1 0 1 0])
+  ("open" .
+   [0 0 0 1])
+  ("file_name" .
+   [1 0 0 0 0 0 1 0 0])
+  ("meta" .
+   [1 0 0 0])
+  ("initialize" .
+   [0 0 0 0 2 0 0 0 0 0])
+  ("def" .
+   [16 0 0])
+  ("attr_accessor" .
+   [0 0 0 2 0 0 0 0 0 0 0 0 0])
+  ("else" .
+   [10 0 0 0])
+  ("require" .
+   [2 0 0 1 0 0 7])
+  ("Bio::Sequence::NA" .
+   [0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("ruby" .
+   [3 0 0 0])
+  ("electricity" .
+   [0 0 0 0 0 0 0 0 1 0 0])
+  ("ruby-electric" .
+   [0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("electric" .
+   [0 0 0 1 0 0 0 1])
+  ("electric-indent-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 1])
+  ("ruby-end-mode" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 1])
+  ("ruby-end" .
+   [1 0 0 1 0 0 0 1])
+  ("setq" .
+   [3 0 0 0])
+  ("web-mode" .
+   [0 0 1 0 0 0 0 1])
+  ("add-to-list" .
+   [0 0 0 0 0 0 0 0 1 0 0])
+  ("auto-mode-alist" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("print" .
+   [9 0 0 0 2])
+  ("repr" .
+   [0 0 1 1])
+  ("reference_tm" .
+   [0 0 0 0 0 1 0 0 0 0 0 0])
+  ("term_1" .
+   [0 0 0 0 1 1])
+  ("term_2" .
+   [1 0 0 0 0 0])
+  ("term_5" .
+   [2 0 0 0 0 0])
+  ("term_3" .
+   [2 0 0 0 0 0])
+  ("term_4" .
+   [3 0 0 0 0 0])
+  ("gc_ratio" .
+   [0 0 2 2 0 0 0 0])
+  ("a" .
+   [7])
+  ("bridges" .
+   [2 0 0 0 0 0 0])
+  ("b" .
+   [2])
+  ("each" .
+   [1 0 0 1])
+  ("do" .
+   [1 0])
+  ("bridge" .
+   [9 0 0 0 0 0])
+  ("BridgeHelper" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("ZFE::BridgeHelper" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("TEST_DATA_DIR" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("parts" .
+   [1 0 0 0 0])
+  ("length" .
+   [6 0 0 0 0 3])
+  ("assert_equal" .
+   [2 0 0 0 0 0 0 0 1 0 0 1])
+  ("s" .
+   [10])
+  ("id" .
+   [9 0])
+  ("class" .
+   [1 0 0 1 5])
+  ("Bridge" .
+   [0 0 1 0 0 2])
+  (":" .
+   [9])
+  (":id" .
+   [1 0 0])
+  ("left_bridge" .
+   [0 0 0 0 0 0 1 0 0 0 0])
+  ("right_half_bridge" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("make" .
+   [1 0 0 0])
+  ("name" .
+   [11 0 0 0])
+  ("g" .
+   [3])
+  ("split" .
+   [1 0 0 1 1])
+  ("left_half_bridge" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("to_fasta" .
+   [4 0 0 0 0 0 0 0])
+  ("d" .
+   [1])
+  ("super" .
+   [1 0 0 0 0])
+  ("descriptor" .
+   [0 0 0 0 0 0 0 0 0 1])
+  ("to_csv" .
+   [1 0 0 0 0 0])
+  ("gsub" .
+   [1 0 1 1])
+  ("bridge_" .
+   [1 0 0 0 0 0 0])
+  ("left_part" .
+   [1 0 0 0 0 0 0 0 0])
+  ("right_orientation" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("return" .
+   [8 0 0 1 0 0])
+  ("self" .
+   [8 0 0 0])
+  ("import" .
+   [1 0 0 0 0 2])
+  ("SECRET_KEY" .
+   [0 0 0 0 0 1 0 0 0 0])
+  ("app" .
+   [4 0 0])
+  ("extension" .
+   [1 0 0 0 0 0 0 0 0])
+  ("session" .
+   [8 0 0 0 0 1 0])
+  ("accessor" .
+   [3 0 0 0 0 0 0 0])
+  ("instance" .
+   [2 0 0 0 0 0 0 0])
+  ("instance_variable_get" .
+   [0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 1])
+  ("RestBase" .
+   [5 0 0 0 0 1 0 0])
+  (":define_method" .
+   [0 0 0 0 1 0 0 1 0 0 0 0 0 0])
+  ("proc" .
+   [1 0 0 0])
+  ("cookie" .
+   [1 0 0 0 0 0])
+  ("_cookie" .
+   [0 0 0 0 1 0 0])
+  ("zrest_token" .
+   [2 0 0 0 0 0 3 0 0 0 1])
+  ("_request" .
+   [0 0 0 2 0 0 0 0])
+  ("cookies" .
+   [1 0 0 0 0 0 0])
+  ("attributes" .
+   [4 1 1 0 0 0 0 0 0 0])
+  ("methods" .
+   [1 0 0 0 0 0 0])
+  ("i" .
+   [4])
+  ("to_json" .
+   [6 0 0 0 0 0 0])
+  ("eval" .
+   [1 0 0 0])
+  ("zrest_string" .
+   [0 0 0 0 0 0 0 1 0 0 0 0])
+  ("parse" .
+   [1 0 0 0 0])
+  ("JSON" .
+   [1 0 0 0])
+  ("zrest" .
+   [0 0 0 0 3])
+  ("zrest_access_token" .
+   [0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 0])
+  ("zrest_access_token_string" .
+   [0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("zrest_token_string" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("nil?" .
+   [10 0 0 0])
+  ("if" .
+   [4 0])
+  ("zrest_access_string" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("0" .
+   [1])
+  ("begin" .
+   [3 0 0 0 0])
+  ("catch" .
+   [1 0 1 0 0])
+  ("exception" .
+   [0 0 0 0 1 0 1 0 0])
+  ("rescue" .
+   [0 0 0 0 2 1])
+  ("headers" .
+   [1 1 0 0 1 0 1])
+  (":Authorization" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("send" .
+   [1 0 0 0])
+  ("raise" .
+   [2 0 0 0 1])
+  ("view_self" .
+   [1 0 0 0 0 0 0 0 0])
+  ("view_self_user_url" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("inspect" .
+   [4 0 0 0 0 0 0])
+  ("response" .
+   [12 0 0 0 0 0 0 1])
+  ("admin_home_url" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 3])
+  ("flash" .
+   [2 0 0 0 0])
+  (":alert" .
+   [1 0 0 0 0 1])
+  ("admin" .
+   [1 0 0 0 0])
+  ("encoded:" .
+   [0 0 0 0 0 0 0 1])
+  ("c" .
+   [9])
+  ("html" .
+   [2 0 0 2])
+  ("redir_url" .
+   [0 0 0 0 1 0 0 0 0])
+  ("form" .
+   [1 0 0 0])
+  ("json" .
+   [6 0 0 1])
+  ("json:" .
+   [1 0 0 0 0])
+  ("new_user" .
+   [0 0 0 0 1 0 0 0])
+  ("rest_errors" .
+   [0 0 0 0 0 1 0 0 0 0 0])
+  ("alert:" .
+   [1 0 0 0 0 0])
+  ("append" .
+   [5 0 0 0 0 3])
+  ("_usersRowTemplate" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("data" .
+   [19 0 1 0])
+  ("console" .
+   [0 0 0 0 1 0 1])
+  ("log" .
+   [0 0 1])
+  ("bind" .
+   [1 0 0 0])
+  ("extends" .
+   [0 0 0 0 1 0 0])
+  ("UserResource" .
+   [0 0 0 0 0 2 0 0 0 0 0 0])
+  ("zymergen" .
+   [0 0 0 0 0 0 0 1])
+  ("resource" .
+   [0 0 0 0 0 0 0 1])
+  ("@FormParam" .
+   [0 0 0 0 0 0 1 0 0 0])
+  ("String" .
+   [3 0 0 0 0 1])
+  ("password" .
+   [3 0 0 0 0 0 0 0])
+  ("apply" .
+   [1 0 0 0 0])
+  ("the" .
+   [1 0 0])
+  ("re" .
+   [2 3])
+  ("e" .
+   [4])
+  ("setq-default" .
+   [1 0 0 0 2 0 1 1 0 0 0 5])
+  (":user_home" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("public" .
+   [0 0 0 1 0 0])
+  ("Long" .
+   [7 0 0 0])
+  ("c-basic-offset" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("defvaralias" .
+   [0 0 0 0 0 0 0 0 1 0 0])
+  ("tab-width" .
+   [1 0 0 0 0 0 0 0 1])
+  ("c-lineup-math" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("arglist-cont-nonempty" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("c-mode-common-hook" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("assertThat" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("expId" .
+   [1 0 0 0 0])
+  ("isNotNull" .
+   [2 0 0 0 0 0 0 0 0])
+  ("experiment" .
+   [2 0 0 0 0 0 0 0 0 2])
+  ("experimentName" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 1])
+  ("in" .
+   [2 0])
+  ("request" .
+   [1 0 2 0 0 0 3])
+  ("getId" .
+   [1 0 0 0 0])
+  ("f" .
+   [1])
+  ("completeDateString" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("auto-fill-mode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("DateTime" .
+   [0 0 0 0 0 0 0 1])
+  ("isEqualTo" .
+   [1 0 0 1 0 0 0 0 0])
+  ("DateTimeZone" .
+   [5 0 0 0 0 0 0 0 0 0 0 1])
+  ("getDefault" .
+   [0 0 0 0 0 1 0 0 0 1])
+  ("Zymergen" .
+   [0 0 0 0 0 1 0 1])
+  ("distane" .
+   [1 0 0 0 0 0 0])
+  ("Bio" .
+   [1 0 0])
+  ("All" .
+   [0 0 1])
+  ("DNA" .
+   [1 0 1])
+  ("IUPAC" .
+   [0 0 5 0 4])
+  ("unambiguous_dna" .
+   [4 0 1 0 0 0 0 0 0 0 0 0 0 0 6])
+  ("primer2" .
+   [2 0 0 0 0 0 0])
+  ("primer3" .
+   [3 0 0 0 0 0 0])
+  ("primer4" .
+   [1 0 0 0 0 0 0])
+  ("tail" .
+   [4 0 0 0])
+  ("Sequence" .
+   [0 0 0 1 1 0 0 0])
+  ("Homology" .
+   [0 0 0 1 1 1 1 0])
+  ("location" .
+   [5 0 0 0 0 0 0 0])
+  ("homology_start" .
+   [1 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("MAX_HOMOLOGY_LENGTH" .
+   [0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("primer" .
+   [7 0 0 0 0 0])
+  ("tail_sequence_1" .
+   [0 0 0 0 0 0 0 1 1 0 0 0 0 0 0])
+  ("tail1" .
+   [1 0 0 0 0])
+  ("tail_sequence_4" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("primer1" .
+   [3 0 0 0 0 0 0])
+  ("candiate" .
+   [0 0 0 0 1 0 0 0])
+  ("p2_end" .
+   [0 0 0 1 0 0])
+  ("h2_length" .
+   [0 0 0 0 0 0 0 0 1])
+  ("vars" .
+   [0 0 1 0])
+  ("Value" .
+   [0 0 0 1 0])
+  ("validate_homology_region" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("h2_candidate" .
+   [0 0 0 0 2 0 0 0 0 0 0 1])
+  ("homology" .
+   [2 0 0 1 5 0 0 0])
+  ("homology2_candidate" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("value" .
+   [7 0 0 0 0])
+  ("snp" .
+   [2 0 0])
+  ("snp_value" .
+   [0 0 0 0 1 0 0 0 0])
+  ("homology_end" .
+   [0 0 0 0 0 0 0 0 0 1 0 0])
+  ("homology_candidate" .
+   [0 0 0 0 0 0 0 0 0 2 1 0 0 0 0 0 0 0])
+  ("MIN_HOMOLOGY_LENGTH" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("hard" .
+   [1 0 0 0])
+  ("True" .
+   [3 0 0 0])
+  ("mt" .
+   [2 0])
+  ("MIN_TM" .
+   [0 0 0 1 0 0])
+  ("tm" .
+   [6 0])
+  ("MAX_TM" .
+   [0 0 0 0 0 1])
+  ("count" .
+   [3 0 0 0 0])
+  ("lmt" .
+   [1 0 0])
+  ("rmt" .
+   [1 0 0])
+  ("python-indent-offset" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("defun" .
+   [1 0 0 0 0])
+  ("interactive" .
+   [0 0 0 0 0 0 1 0 0 0 0])
+  ("my-python-style-setup" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("find" .
+   [9 0 2 4])
+  ("temp" .
+   [1 0 0 0])
+  ("template" .
+   [2 0 0 0 0 0 0 1])
+  ("None" .
+   [15 0 0 0])
+  ("DEFAULT_DNA_CONC" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("DEFAULT_MONOVALENT_CONC" .
+   [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("DEFAULT_DIVALENT_CONC" .
+   [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("args" .
+   [2 0 0 0])
+  ("get_gc_ratio" .
+   [0 0 0 1 0 0 0 0 0 0 0 0])
+  ("score" .
+   [6 1 0 0 0])
+  ("warnings" .
+   [3 0 0 0 0 0 0 0])
+  ("PRIMER_CONCENTRATION" .
+   [0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("dna_concentration" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1])
+  ("sequence_rc" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("primer_conc" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("calcHomodimer" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("MONOVALENT_CONCENTRATION" .
+   [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("DIVALENT_CONCENTRATION" .
+   [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("DNTP_CONCENTRATION" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("dna_conc" .
+   [1 0 0 0 0 0 0 0])
+  ("TEMP_SIMULATION" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("homodimer" .
+   [0 0 1 0 0 2 1 0 0])
+  ("DIMER_" .
+   [1 0 0 0 0 0])
+  ("DIMER_MAX_TM" .
+   [0 0 0 0 0 0 0 0 1 0 0 1])
+  ("warning" .
+   [0 0 0 0 0 0 2])
+  ("DIMER_MIN_DELTA_G" .
+   [0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0])
+  ("dg" .
+   [1 0])
+  ("p2" .
+   [13 0])
+  ("p1_actual" .
+   [0 0 0 3 0 0 0 0 0])
+  ("p3" .
+   [10 0])
+  ("p4" .
+   [9 0])
+  ("ps_actual" .
+   [0 0 0 1 0 0 0 0 0])
+  ("homo_2_actual" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("homo_2" .
+   [1 0 0 0 0 0])
+  ("seq" .
+   [6 0 0])
+  ("match" .
+   [2 1 0 0 0])
+  ("math" .
+   [1 0 0 0])
+  ("homologous_region" .
+   [1 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 1])
+  ("p1" .
+   [2 0])
+  ("actual" .
+   [2 0 0 0 0 0])
+  ("display" .
+   [1 0 0 0 1 0 0])
+  ("ac" .
+   [1 0])
+  ("offset1" .
+   [3 0 0 0 0 0 0])
+  ("offset2" .
+   [2 0 0 0 0 0 0])
+  ("start" .
+   [2 0 0 0 0])
+  ("__name__" .
+   [0 0 1 0 1 1 1 2])
+  ("search" .
+   [4 0 0 0 0 1])
+  ("test" .
+   [5 0 0 0])
+  ("sndhdr" .
+   [0 0 3 0 0 0])
+  ("Zlib" .
+   [0 0 1 0])
+  ("snpswp" .
+   [0 0 1 1 1 0])
+  ("auth_token" .
+   [0 0 0 0 0 1 0 0 0 0])
+  ("CharField" .
+   [0 0 0 1 0 0 0 0 0])
+  ("max_length" .
+   [1 0 0 0 0 0 1 0 0 0])
+  ("row" .
+   [9 0 1])
+  ("submit_date" .
+   [2 0 0 0 0 0 0 0 0 0 0])
+  ("False" .
+   [2 0 0 0 0])
+  ("@FilterArg" .
+   [3 2 0 0 0 0 0 0 0 0])
+  ("t" .
+   [3])
+  ("userId" .
+   [1 0 0 0 0 0])
+  ("field" .
+   [1 0 0 0 0])
+  ("who" .
+   [1 0 0])
+  ("uploadUserId" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("filtered" .
+   [1 0 0 0 0 0 0 0])
+  ("sensor" .
+   [1 0 0 0 0 0])
+  ("wait()" .
+   [0 0 0 0 1 0])
+  ("print(int)" .
+   [1 0 0 0 0 0 0 1 0 1])
+  ("getEnvironmentMetrics" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("java.util.Collections" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("Environment" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("EnvironmentMetric" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("return_value()" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("criteria" .
+   [1 0 0 0 0 0 0 0])
+  ("Session" .
+   [1 0 0 0 0 0 0])
+  ("mMAXRESULTS" .
+   [1 0 0 0 0 0 0 1 0 0 0])
+  ("java.lang.Math" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("metrics" .
+   [11 0 0 0 0 0 2])
+  ("mMAXRECORDS" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("$usersTable" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("function" .
+   [3 0 0 0 0 0 0 0])
+  ("getJSON" .
+   [1 0 0 0 0 0 0])
+  ("EnvironmentMetrics" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("dataY" .
+   [3 0 0 0 0])
+  ("environment" .
+   [0 0 0 0 0 0 0 0 0 0 1])
+  ("environmentMetrics" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("measurementName" .
+   [4 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("dataX" .
+   [1 0 0 0 0])
+  ("plotCategorical" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 1])
+  ("units" .
+   [1 0 1 0 0])
+  ("$chartsContainer" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("empty" .
+   [1 0 1 0 1])
+  ("addClass" .
+   [0 0 0 0 0 0 0 1])
+  ("title" .
+   [2 0 0 0 0])
+  ("yLabel" .
+   [2 0 0 0 0 0])
+  ("categoricalValue" .
+   [0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("inArray" .
+   [0 0 0 0 0 0 1])
+  ("categories" .
+   [2 0 0 0 0 0 0 0 1 1])
+  ("pow" .
+   [1 0 0])
+  ("cvIndex" .
+   [1 0 0 0 0 0 2])
+  ("push" .
+   [1 0 0 2])
+  ("captureTimestamp" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("categori" .
+   [0 0 0 0 0 0 0 1])
+  ("$el" .
+   [2 0 0])
+  ("collection" .
+   [1 0 0 0 0 0 0 0 0 1])
+  ("null" .
+   [3 0 0 0])
+  ("list" .
+   [1 0 0 0])
+  ("this" .
+   [9 0 0 0])
+  ("envMetricsList" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 3])
+  ("set" .
+   [1 0 1])
+  ("isNumeric" .
+   [0 0 0 0 0 0 0 0 1])
+  ("_attributes" .
+   [0 0 0 0 0 0 0 0 0 0 3])
+  ("attrObject" .
+   [1 0 0 0 0 0 0 0 0 1])
+  ("prop" .
+   [1 0 0 0])
+  ("gray" .
+   [0 1 0 0])
+  ("met" .
+   [3 0 0])
+  ("of_metrics" .
+   [0 0 0 1 0 2 0 0 0 0])
+  ("staticmethod" .
+   [0 0 1 0 3 0 0 0 0 0 0 3])
+  ("get_entity_name" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("__init__" .
+   [0 0 0 0 1 0 0 0])
+  ("classmethod" .
+   [5 0 0 0 0 0 0 0 0 0 7])
+  ("cls" .
+   [5 0 0])
+  ("rest_get" .
+   [0 0 0 0 0 0 0 1])
+  ("lower" .
+   [1 0 0 0 0])
+  ("ins" .
+   [2 0 0])
+  ("insp" .
+   [2 0 0 0])
+  ("content" .
+   [1 0 0 0 0 0 0])
+  ("full_url" .
+   [3 0 0 0 0 1 0 2])
+  ("fadeOut" .
+   [1 0 0 0 0 0 0])
+  ("assertEz" .
+   [1 0 0 0 0 0 0 0])
+  ("assertEqual" .
+   [0 0 0 0 0 0 0 0 0 0 3])
+  ("p2_actual" .
+   [0 0 0 0 0 0 0 0 1])
+  ("batchType" .
+   [0 0 0 0 0 0 0 0 1])
+  ("groupBy" .
+   [1 0 0 0 0 0 0])
+  ("measurementGroup" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("measurementsByTuple" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("tuple" .
+   [3 0 0 0 0])
+  ("wellIndex" .
+   [0 0 0 1 0 0 0 0 0])
+  ("xAxis" .
+   [0 0 0 0 1])
+  ("type" .
+   [0 0 0 1])
+  ("position" .
+   [1 0 0 1 0 0 1 0])
+  ("false" .
+   [3 0 0 0 0])
+  ("resolution" .
+   [2 0 0 1 0 0 0 0 0 0])
+  ("size" .
+   [3 0 0 0])
+  ("point" .
+   [0 0 0 0 1])
+  ("concentration" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("borderColor" .
+   [0 0 1 0 0 0 0 0 0 0 0])
+  ("concMeasurement" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("Percent" .
+   [0 0 0 0 0 0 1])
+  ("percentConcentration" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("uniq" .
+   [0 0 0 1])
+  ("formatter" .
+   [1 0 0 0 0 0 0 0 0])
+  ("measurementsByWell" .
+   [1 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 1])
+  ("plateId" .
+   [3 0 0 0 0 0 0])
+  ("generate_from_json" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("generate_primers" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("SWAP" .
+   [2 0 1 0])
+  ("target_seq_aligned" .
+   [0 0 0 0 0 0 2 0 0 2 0 0 0 0 0 0 0 1])
+  ("swap_start" .
+   [0 0 0 0 1 0 0 0 0 1])
+  ("swap_end" .
+   [0 0 0 1 0 0 1 0])
+  ("target_swap" .
+   [0 0 0 0 0 0 0 0 0 2 0])
+  ("target" .
+   [6 0 0 0 0 3])
+  ("snp_end" .
+   [1 0 0 0 1 0 0])
+  ("snp_start" .
+   [1 0 0 0 0 0 0 0 1])
+  ("test_snp" .
+   [1 0 0 0 0 0 0 0])
+  ("upper" .
+   [0 0 0 0 1])
+  ("FILE_SEQ_1_B11_P6" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("seq_b10_p6" .
+   [1 0 1 0 0 0 0 0 0 0])
+  ("TARGET_P6" .
+   [1 0 1 0 0 0 0 0 0])
+  ("help_test_align_sequences" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("alignment=" .
+   [0 0 0 0 1 0 0 0 0 0])
+  ("help_align_sequences_mutant" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("phred_scores" .
+   [1 0 0 0 0 1 0 0 1 0 0 3])
+  ("test_swap_phred_scores" .
+   [0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0])
+  ("swapp_str" .
+   [1 0 0 0 0 0 0 0 0])
+  ("spl" .
+   [1 0 0])
+  ("wildtype_swap" .
+   [0 0 0 1 0 0 0 0 0 1 0 0 0])
+  ("log10" .
+   [1 0 0 0 0])
+  ("test_swap" .
+   [2 0 0 0 0 0 0 0 0])
+  ("Q_seq" .
+   [1 0 0 0 0])
+  ("wild" .
+   [0 0 0 1])
+  ("Q_x" .
+   [0 0 3])
+  ("swap_phred_scores" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("Q_test_swp" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("test_swap_Q20" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("SWP_P6" .
+   [4 0 0 0 0 0])
+  ("score_sequencing_record" .
+   [1 0 2 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("seq_f12_p5" .
+   [0 0 0 0 0 0 0 0 1 0])
+  ("TARGET_P5" .
+   [0 0 1 0 0 0 0 0 0])
+  ("SWP_P5" .
+   [0 0 1 0 0 0])
+  ("sequencing_record" .
+   [0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0])
+  ("letter_annotations" .
+   [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("sequence_qaulity" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("test_swap_quality" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("assertGreater" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("seq_f12_p6" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("assertLess" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("seq_b11_p6" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("dirname" .
+   [0 0 1 0 0 0 0])
+  ("__file__" .
+   [1 0 0 0 0 0 0 0])
+  ("phred_score" .
+   [2 0 0 0 0 1 0 0 0 0 0])
+  ("scores" .
+   [1 0 0 0 0 0])
+  ("plate_ids" .
+   [1 0 0 0 0 0 0 0 0])
+  ("?" .
+   [1])
+  ("seqRecord" .
+   [1 0 0 0 0 0 0 0 1])
+  ("dnaComponentBlob" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("feature" .
+   [1 0 0 0 0 0 1])
+  ("qualifiers" .
+   [2 0 0 0 0 0 0 0 0 3])
+  ("annotationName" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("aliquot" .
+   [0 0 0 0 0 0 1])
+  ("fixed" .
+   [1 0 0 0 1])
+  ("height" .
+   [0 0 0 1 0 0])
+  ("max-height" .
+   [0 0 0 0 1 0 0 0 0 0])
+  ("Window" .
+   [1 0 0 0 0 0])
+  ("recent" .
+   [1 0 0 0 0 0])
+  ("memo" .
+   [1 0 0 0])
+  ("children" .
+   [1 0 0 0 0 0 0 0])
+  ("empty?" .
+   [1 0 0 0 0 0])
+  ("vis" .
+   [1 0 0])
+  ("toggleAll" .
+   [1 0 0 0 0 0 0 0 0])
+  ("nodeEnter" .
+   [1 0 0 0 0 0 0 0 0])
+  ("cur" .
+   [0 0 1])
+  ("current_user" .
+   [0 0 0 0 0 0 0 1 0 0 0 0])
+  ("gb" .
+   [3 0])
+  (":gb" .
+   [2 0 0])
+  ("GENBANK_FILE_LOCATION" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("dna_component" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("dna_component_id" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0])
+  ("id:" .
+   [1 0 0])
+  ("create_dna_component_from_genbank" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("genbank_file" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("starts_with?" .
+   [0 0 0 0 0 0 0 0 1 0 0 1])
+  ("body" .
+   [1 0 0 0])
+  ("new_plates" .
+   [0 0 0 0 0 0 0 1 0 0])
+  ("respon" .
+   [0 0 0 0 0 1])
+  ("application" .
+   [1 0 0 0 0 0 0 0 0 0 1])
+  ("zwork_polling_timeout" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("zwork_polling_period" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("POLLING_TIMEOUT" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("POLLING_PERIOD" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("config" .
+   [1 0 0 0 0 0])
+  ("srcDesc" .
+   [3 0 0 0 0 0 0])
+  ("plateNum" .
+   [2 0 0 0 0 0 0 1])
+  ("maxDescLength" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("length()" .
+   [0 0 0 1 0 0 0 1])
+  ("plateNumStr" .
+   [1 0 0 0 0 0 0 0 1 0 0])
+  ("strain" .
+   [1 0 0 0 0 0])
+  ("dnaComponentId" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("blank" .
+   [1 0 0 0 0])
+  ("html_safe" .
+   [1 0 0 0 0 0 0 0 0])
+  ("MODE_COLUMN_IDX" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("WAVELENGTH_COLUMN_IDX" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("STARTBODY" .
+   [3 0 0 0 0 0 0 0 1])
+  ("BODY_ROW_HEAD" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("wellCount" .
+   [1 0 0 0 0 0 0 0 0])
+  ("TEMPERATURE" .
+   [3 0 0 0 0 0 0 0 0 0 1])
+  ("TEMPERATURE_COLUMN_IDX" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1])
+  ("NotImplemented" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("wellNames" .
+   [1 0 0 0 0 0 0 0 1])
+  ("START_" .
+   [1 0 0 0 0 0])
+  ("WELL_COUNT_COLUMN_IDX" .
+   [0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("WELL_START_COLUMN_IDX" .
+   [1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("positions" .
+   [2 0 0 0 0 0 0 0 0])
+  ("pos" .
+   [1 0 0])
+  ("val" .
+   [1 0 0])
+  ("WELL_" .
+   [0 0 0 0 1])))

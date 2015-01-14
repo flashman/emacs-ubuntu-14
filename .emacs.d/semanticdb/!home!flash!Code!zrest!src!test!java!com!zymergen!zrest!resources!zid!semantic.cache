@@ -1,0 +1,87 @@
+;; Object zid/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "zid/"
+  :tables (list 
+   (semanticdb-table "IntegrationTestCreateIdResource.java"
+    :major-mode 'jde-mode
+    :tags 
+        '( ("com.zymergen.zrest.resources.zid" package nil nil [63 104])
+            ("java.util.ArrayList" include nil nil [106 133])
+            ("java.util.Collections" include nil nil [134 163])
+            ("java.util.HashSet" include nil nil [164 189])
+            ("java.util.List" include nil nil [190 212])
+            ("java.util.Set" include nil nil [213 234])
+            ("org.junit.Test" include nil nil [236 258])
+            ("com.sun.jersey.api.client.UniformInterfaceException" include nil nil [260 319])
+            ("com.sun.jersey.api.client.WebResource" include nil nil [320 365])
+            ("com.zymergen.zrest.dto.IdHandle" include nil nil [366 405])
+            ("com.zymergen.zrest.testutil.ZRestIntegrationTest" include nil nil [406 462])
+            ("IntegrationTestCreateIdResource" type
+               (:typemodifiers ("public")
+                :superclasses "ZRestIntegrationTest"
+                :members 
+                  ( ("testFailNoUser" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [743 1007])
+                    ("testFailBadSeq" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1094 1353])
+                    ("testCreate" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [1365 1797])
+                    ("CreateThread" type
+                       (:typemodifiers ("private")
+                        :superclasses "Thread"
+                        :members 
+                          ( ("mNumCreates" variable
+                               (:typemodifiers ("private")
+                                :type "int")
+                                (reparse-symbol class_member_declaration) [2020 2044])
+                            ("mError" variable
+                               (:typemodifiers ("private")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [2236 2258])
+                            ("CreateThread" function
+                               (:constructor-flag t
+                                :typemodifiers ("private")
+                                :arguments 
+                                  ( ("threadId" variable (:type "int") (reparse-symbol formal_parameters) [2285 2297])
+                                    ("numCreates" variable (:type "int") (reparse-symbol formal_parameters) [2299 2313])
+                                    ("" variable (:type "issuedIds") (reparse-symbol formal_parameters) [2325 2334]))                                  )
+                                (reparse-symbol class_member_declaration) [2264 2453])
+                            ("run" function
+                               (:typemodifiers ("public")
+                                :type "void")
+                                (reparse-symbol class_member_declaration) [2473 3042])
+                            ("setError" function
+                               (:typemodifiers ("private" "synchronized")
+                                :arguments 
+                                  ( ("error" variable (:type "String") (reparse-symbol formal_parameters) [3126 3138]))                                  
+                                :type "void")
+                                (reparse-symbol class_member_declaration) [3091 3169])
+                            ("getError" function
+                               (:typemodifiers ("public" "synchronized")
+                                :type "String")
+                                (reparse-symbol class_member_declaration) [3224 3290]))                          
+                        :type "class")
+                        (reparse-symbol class_member_declaration) [1918 3294])
+                    ("testMultipleCreateThreads" function
+                       (:typemodifiers ("public")
+                        :type "void")
+                        (reparse-symbol class_member_declaration) [3306 4405]))                  
+                :type "class")
+                nil [581 4407]))          
+    :file "IntegrationTestCreateIdResource.java"
+    :pointmax 4409
+    :fsize 4408
+    :lastmodtime '(21438 60291 652021 476000)
+    :unmatched-syntax '((GT 2323 . 2324) (IDENTIFIER 2315 . 2318) (LT 2318 . 2319) (SEMICOLON 2154 . 2155) (GT 2142 . 2143) (PRIVATE 2126 . 2133) (LT 2137 . 2138) (CLASS 1052 . 1057) (IDENTIFIER 1017 . 1025) (EQ 1025 . 1026) (CLASS 701 . 706) (IDENTIFIER 666 . 674) (EQ 674 . 675) (IDENTIFIER 574 . 578) (DOT 573 . 574) (IDENTIFIER 563 . 573) (DOT 562 . 563) (IDENTIFIER 559 . 562) (DOT 558 . 559) (IDENTIFIER 548 . 558) (DOT 547 . 548) (IDENTIFIER 543 . 547) (DOT 542 . 543) (IMPORT 525 . 531) (STATIC 532 . 538) (IDENTIFIER 539 . 542) (IDENTIFIER 513 . 523) (DOT 512 . 513) (IDENTIFIER 502 . 512) (DOT 501 . 502) (IDENTIFIER 498 . 501) (DOT 497 . 498) (IDENTIFIER 487 . 497) (DOT 486 . 487) (IDENTIFIER 482 . 486) (DOT 481 . 482) (IMPORT 464 . 470) (STATIC 471 . 477) (IDENTIFIER 478 . 481))
+    )
+   )
+  :file "!home!flash!Code!zrest!src!test!java!com!zymergen!zrest!resources!zid!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

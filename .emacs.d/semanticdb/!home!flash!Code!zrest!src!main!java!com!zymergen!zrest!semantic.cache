@@ -1,0 +1,53 @@
+;; Object zrest/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "zrest/"
+  :tables (list 
+   (semanticdb-table "ZRestApplication.java"
+    :major-mode 'jde-mode
+    :tags 
+        '( ("com.zymergen.zrest" package nil nil [62 89])
+            ("org.hibernate.SessionFactory" include nil nil [91 127])
+            ("io.dropwizard.Application" include nil nil [129 162])
+            ("io.dropwizard.db.DataSourceFactory" include nil nil [163 205])
+            ("io.dropwizard.hibernate.HibernateBundle" include nil nil [206 253])
+            ("io.dropwizard.migrations.MigrationsBundle" include nil nil [254 303])
+            ("io.dropwizard.setup.Bootstrap" include nil nil [304 341])
+            ("io.dropwizard.setup.Environment" include nil nil [342 381])
+            ("com.zymergen.zrest.auth.HmacRestrictedToProvider" include nil nil [383 439])
+            ("com.zymergen.zrest.mapper.MapperDaoCache" include nil nil [440 488])
+            ("com.zymergen.zrest.models.Experiment" include nil nil [489 533])
+            ("com.zymergen.zrest.models.Plate" include nil nil [534 573])
+            ("com.zymergen.zrest.models.User" include nil nil [574 612])
+            ("com.zymergen.zrest.models.Well" include nil nil [613 651])
+            ("com.zymergen.zrest.models.ZId" include nil nil [652 689])
+            ("com.zymergen.zrest.models.ZIdSeq" include nil nil [690 730])
+            ("com.zymergen.zrest.models.dao.ExperimentDao" include nil nil [731 782])
+            ("com.zymergen.zrest.models.dao.PlateDao" include nil nil [783 829])
+            ("com.zymergen.zrest.models.dao.UserDao" include nil nil [830 875])
+            ("com.zymergen.zrest.models.dao.WellDao" include nil nil [876 921])
+            ("com.zymergen.zrest.models.dao.ZIdDao" include nil nil [922 966])
+            ("com.zymergen.zrest.models.dao.ZIdSeqDao" include nil nil [967 1014])
+            ("com.zymergen.zrest.resources.ExperimentResource" include nil nil [1015 1070])
+            ("com.zymergen.zrest.resources.PlateResource" include nil nil [1071 1121])
+            ("com.zymergen.zrest.resources.WellResource" include nil nil [1122 1171])
+            ("com.zymergen.zrest.resources.session.SignInResource" include nil nil [1172 1231])
+            ("com.zymergen.zrest.resources.user.CreateUserResource" include nil nil [1232 1292])
+            ("com.zymergen.zrest.resources.user.ListUsersResource" include nil nil [1293 1352])
+            ("com.zymergen.zrest.resources.user.LookupUserResource" include nil nil [1353 1413])
+            ("com.zymergen.zrest.resources.user.UpdateUserResource" include nil nil [1414 1474])
+            ("com.zymergen.zrest.resources.zid.CreateIdResource" include nil nil [1475 1532])
+            ("com.zymergen.zrest.resources.zid.IdKindsResource" include nil nil [1533 1589])
+            ("com.zymergen.zrest.resources.zid.LookupIdResource" include nil nil [1590 1647])
+            ("com.zymergen.zrest.util.IllegalArgExceptionMapper" include nil nil [1648 1705])
+            ("com.zymergen.zrest.util.RuntimeExceptionMapper" include nil nil [1706 1760]))          
+    :file "ZRestApplication.java"
+    :pointmax 5084
+    :fsize 5083
+    :lastmodtime '(21438 60291 652021 476000)
+    :unmatched-syntax '((BRACE_BLOCK 1886 . 5083) (GT 1884 . 1885) (IDENTIFIER 1866 . 1884) (PUBLIC 1816 . 1822) (LT 1865 . 1866))
+    )
+   )
+  :file "!home!flash!Code!zrest!src!main!java!com!zymergen!zrest!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

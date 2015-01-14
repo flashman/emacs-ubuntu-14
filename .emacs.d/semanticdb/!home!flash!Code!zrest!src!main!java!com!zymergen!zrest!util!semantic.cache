@@ -1,0 +1,28 @@
+;; Object util/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "util/"
+  :tables (list 
+   (semanticdb-table "RuntimeExceptionMapper.java"
+    :major-mode 'jde-mode
+    :tags 
+        '( ("com.zymergen.zrest.util" package nil nil [63 95])
+            ("javax.ws.rs.WebApplicationException" include nil nil [97 140])
+            ("javax.ws.rs.core.MediaType" include nil nil [141 175])
+            ("javax.ws.rs.core.Response" include nil nil [176 209])
+            ("javax.ws.rs.core.Response.ResponseBuilder" include nil nil [210 259])
+            ("javax.ws.rs.ext.ExceptionMapper" include nil nil [260 299])
+            ("javax.ws.rs.ext.Provider" include nil nil [300 332])
+            ("org.slf4j.Logger" include nil nil [334 358])
+            ("org.slf4j.LoggerFactory" include nil nil [359 390])
+            ("com.zymergen.zrest.mapper.FormMapperRuntimeException" include nil nil [392 452]))          
+    :file "RuntimeExceptionMapper.java"
+    :pointmax 3551
+    :fsize 3550
+    :lastmodtime '(21438 60291 652021 476000)
+    :unmatched-syntax '((BRACE_BLOCK 670 . 3550) (GT 668 . 669) (IDENTIFIER 652 . 668) (LT 651 . 652) (IDENTIFIER 579 . 588))
+    )
+   )
+  :file "!home!flash!Code!zrest!src!main!java!com!zymergen!zrest!util!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )

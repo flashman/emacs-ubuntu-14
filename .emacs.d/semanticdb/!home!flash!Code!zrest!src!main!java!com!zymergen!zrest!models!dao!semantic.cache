@@ -1,0 +1,60 @@
+;; Object dao/
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "dao/"
+  :tables (list 
+   (semanticdb-table "UserDao.java"
+    :major-mode 'jde-mode
+    :tags 
+        '( ("com.zymergen.zrest.models.dao" package nil nil [63 101])
+            ("java.util.List" include nil nil [103 125])
+            ("io.dropwizard.hibernate.AbstractDAO" include nil nil [127 170])
+            ("org.hibernate.SessionFactory" include nil nil [172 208])
+            ("org.hibernate.criterion.Restrictions" include nil nil [209 253])
+            ("com.zymergen.zrest.mapper.ReaderDao" include nil nil [255 298])
+            ("com.zymergen.zrest.models.User" include nil nil [299 337]))          
+    :file "UserDao.java"
+    :pointmax 1430
+    :fsize 1429
+    :lastmodtime '(21419 21367 683663 758000)
+    :unmatched-syntax '((BRACE_BLOCK 455 . 1429) (GT 453 . 454) (IDENTIFIER 449 . 453) (COMMA 447 . 448) (IDENTIFIER 443 . 447) (LT 442 . 443) (IDENTIFIER 433 . 442) (IMPLEMENTS 422 . 432) (GT 420 . 421) (IDENTIFIER 416 . 420) (PUBLIC 375 . 381) (LT 415 . 416))
+    )
+   (semanticdb-table "ExperimentDao.java"
+    :major-mode 'jde-mode
+    :tags 
+        '( ("com.zymergen.zrest.models.dao" package nil nil [63 101])
+            ("java.util.List" include nil nil [103 125])
+            ("io.dropwizard.hibernate.AbstractDAO" include nil nil [127 170])
+            ("org.hibernate.SessionFactory" include nil nil [172 208])
+            ("com.zymergen.zrest.mapper.ReaderDao" include nil nil [210 253])
+            ("com.zymergen.zrest.models.Experiment" include nil nil [254 298]))          
+    :file "ExperimentDao.java"
+    :pointmax 1108
+    :fsize 1107
+    :lastmodtime '(21419 21367 683663 758000)
+    :unmatched-syntax '((BRACE_BLOCK 464 . 1107) (GT 462 . 463) (IDENTIFIER 452 . 462) (COMMA 450 . 451) (IDENTIFIER 446 . 450) (LT 445 . 446) (IDENTIFIER 436 . 445) (IMPLEMENTS 425 . 435) (GT 419 . 420) (IDENTIFIER 409 . 419) (PUBLIC 362 . 368) (LT 408 . 409))
+    )
+   (semanticdb-table "PlateDao.java"
+    :file "PlateDao.java"
+    :fsize 1263
+    :lastmodtime '(21438 60291 652021 476000)
+    )
+   (semanticdb-table "WellDao.java"
+    :file "WellDao.java"
+    :fsize 1510
+    :lastmodtime '(21438 60291 652021 476000)
+    )
+   (semanticdb-table "ZIdDao.java"
+    :file "ZIdDao.java"
+    :fsize 793
+    :lastmodtime '(21438 60291 652021 476000)
+    )
+   (semanticdb-table "ZIdSeqDao.java"
+    :file "ZIdSeqDao.java"
+    :fsize 6415
+    :lastmodtime '(21438 60291 652021 476000)
+    )
+   )
+  :file "!home!flash!Code!zrest!src!main!java!com!zymergen!zrest!models!dao!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2"
+  )
